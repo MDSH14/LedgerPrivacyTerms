@@ -1,0 +1,32 @@
+{
+  "services": {
+    "youtube_music": "/icons/services/youtube_music.png",
+    "shahid": "/icons/services/shahid.png",
+    "watchit": "/icons/services/watchit.png",
+    "yango_play": "/icons/services/yango_play.png",
+    "anghami": "/icons/services/anghami.png",
+    "talabat_pro": "/icons/services/talabat_pro.png",
+    "vezeeta_shamel": "/icons/services/vezeeta_shamel.png",
+    "telecom_egypt": "/icons/services/telecom_egypt.png",
+    "vodafone": "/icons/services/vodafone.png",
+    "etisalat": "/icons/services/etisalat.png",
+    "orange": "/icons/services/orange.png"
+  },
+  "institutions": {
+    "khazna": "/icons/institutions/khazna.png",
+    "moneyfellows": "/icons/institutions/moneyfellows.png",
+    "souhoola": "/icons/institutions/souhoola.png",
+    "sympl": "/icons/institutions/sympl.png",
+    "valu_cards": "/icons/institutions/valu_cards.png",
+    "valu_u": "/icons/institutions/valu_u.png",
+    "valu_icon": "/icons/institutions/valu_icon.svg"
+  },
+  "app": {
+    "icon": "/icons/app/icon.png",
+    "adaptive_icon": "/icons/app/adaptive_icon.png",
+    "app_icon": "/icons/app/app_icon.png",
+    "app_icon_foreground": "/icons/app/app_icon_foreground.png",
+    "splash_icon": "/icons/app/splash_icon.png",
+    "favicon": "/icons/app/favicon.png"
+  }
+}
