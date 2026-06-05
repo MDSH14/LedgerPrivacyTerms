@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delete Ledger Account and Data</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --primary: #0057d9;
+      --primary-dark: #003f9e;
+      --text: #101828;
+      --muted: #667085;
+      --border: #d9e2ef;
+      --surface: #ffffff;
+      --background: #f5f8fc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(880px, 100%);
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 40px 20px 56px;
+      background: var(--surface);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .logo {
+      display: grid;
+      width: 36px;
+      height: 36px;
+      place-items: center;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      color: var(--text);
+      font-size: clamp(32px, 6vw, 48px);
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: 32px 0 8px;
+      color: #0f172a;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    p,
+    li {
+      font-size: 16px;
+    }
+
+    ol {
+      padding-left: 22px;
+    }
+
+    li::marker,
+    .section-number {
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (min-width: 760px) {
+      body {
+        padding: 28px 16px;
+      }
+
+      main {
+        min-height: auto;
+        border-radius: 14px;
+        box-shadow: 0 12px 32px rgba(16, 24, 40, 0.08);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><span class="logo">L</span><span>Ledger</span></div>
+    <h1>Delete Account and Data</h1>
+    <p class="muted">Effective date: June 5, 2026</p>
+
+    <p>Ledger lets you request account and data deletion directly inside the mobile application.</p>
+
+    <h2><span class="section-number">1.</span> Delete from the app</h2>
+    <ol>
+      <li>Open Ledger on your device.</li>
+      <li>Go to the Profile tab.</li>
+      <li>Scroll to Danger Zone.</li>
+      <li>Tap Delete account and data.</li>
+      <li>Type DELETE to confirm.</li>
+      <li>Choose Delete Everything to delete your cloud account, cloud data, and local app data.</li>
+      <li>Choose Delete cloud only and continue as guest if you want to remove your Firebase cloud account and cloud data while keeping the local data on your device.</li>
+    </ol>
+
+    <h2><span class="section-number">2.</span> What gets deleted</h2>
+    <p>If you choose Delete Everything, Ledger deletes your Firebase account, cloud data, wallet transactions, obligations, installment history, institutions, reminders, local SQLite data, and app settings on the device.</p>
+    <p>If you choose Delete cloud only and continue as guest, Ledger deletes your Firebase account and cloud data, disables cloud sync, keeps your local device data, and switches the app to guest mode.</p>
+
+    <h2><span class="section-number">3.</span> Sign in again requirement</h2>
+    <p>For account security, Firebase may require you to sign in again before deleting your account. If this happens, log out, log in again, then repeat the deletion steps.</p>
+
+    <h2><span class="section-number">4.</span> Contact</h2>
+    <p>If you cannot access the app and need help with deletion, contact the Ledger developer at md.mahmoud14@gmail.com.</p>
+
+    <p class="footer">Ledger Account and Data Deletion</p>
+  </main>
+</body>
+</html>
